@@ -5,8 +5,7 @@ For access use Bearer token - **hrLkzj4yaezrWTisIwoKnfI1kmXp28DDKsv3EKn3BHDfOyUK
 `http://localhost/api/issues` - returns all issues
 `http://localhost/api/issues/3` - returns specific issue 
 
-![#1589F0](Possible options for all issues) `#1589F0`
-Possible options for all issues
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15` Possible options for all issues
 
 | **GET parameter**  | **Description**                                    
 | ------------------ | ---------------------------------------------| 
