@@ -11,4 +11,4 @@ order_by- set order of sorting [asc,desc]
 filter[column_name] - set column_name and value that caontains in field [id,title,category,description,user_id,created_at,updated_at]
 tags[] - set tags of filtering issues
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/20879151-766066e4-7f97-4c15-b215-20d29faaa4aa?action=collection%2Ffork&collection-url=entityId%3D20879151-766066e4-7f97-4c15-b215-20d29faaa4aa%26entityType%3Dcollection%26workspaceId%3D90684aef-822b-4f2a-90c4-6d995817a93e)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/20879151-be71563b-1df1-4aac-8e79-13c70ff486c7?action=collection%2Ffork&collection-url=entityId%3D20879151-be71563b-1df1-4aac-8e79-13c70ff486c7%26entityType%3Dcollection%26workspaceId%3D90684aef-822b-4f2a-90c4-6d995817a93e)
