@@ -5,7 +5,9 @@ For access use Bearer token - **hrLkzj4yaezrWTisIwoKnfI1kmXp28DDKsv3EKn3BHDfOyUK
 `http://localhost/api/issues` - returns all issues
 `http://localhost/api/issues/3` - returns specific issue 
 
+```diff
 @@ Possible options for all issues @@
+```
 | **GET parameter**  | **Description**                                    
 | ------------------ | ---------------------------------------------| 
 | sort_by            | set column of sorting (look the table below) | 
@@ -13,7 +15,9 @@ For access use Bearer token - **hrLkzj4yaezrWTisIwoKnfI1kmXp28DDKsv3EKn3BHDfOyUK
 | filter[column_name]| set filter (look the table below)            |
 | tags[]             | tag name                                     |
 
+```diff
 + Possible sort_by and column_name:
+```
 | **sort_by**, **column_name** | **values type**        | 
 | -----------------------------|:----------------------:| 
 | id                           | integer                | 
