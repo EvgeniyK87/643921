@@ -13,16 +13,4 @@ tags[] - set tags of filtering issues
 
 Run POSTMAN collection 
 
-<div class="postman-run-button"
-data-postman-action="collection/fork"
-data-postman-var-1="20879151-766066e4-7f97-4c15-b215-20d29faaa4aa"
-data-postman-collection-url="entityId=20879151-766066e4-7f97-4c15-b215-20d29faaa4aa&entityType=collection&workspaceId=90684aef-822b-4f2a-90c4-6d995817a93e"></div>
-<script type="text/javascript">
-  (function (p,o,s,t,m,a,n) {
-    !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
-    !o.getElementById(s+t) && o.getElementsByTagName("head")[0].appendChild((
-      (n = o.createElement("script")),
-      (n.id = s+t), (n.async = 1), (n.src = m), n
-    ));
-  }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
-</script>
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/20879151-766066e4-7f97-4c15-b215-20d29faaa4aa?action=collection%2Ffork&collection-url=entityId%3D20879151-766066e4-7f97-4c15-b215-20d29faaa4aa%26entityType%3Dcollection%26workspaceId%3D90684aef-822b-4f2a-90c4-6d995817a93e)
