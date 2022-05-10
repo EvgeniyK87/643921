@@ -2,8 +2,12 @@
 
 For access use Bearer token - hrLkzj4yaezrWTisIwoKnfI1kmXp28DDKsv3EKn3BHDfOyUKHnwPvp5Y6BwJ 
 
+
+```
 http://localhost/api/issues - returns all issues
 http://localhost/api/issues/3 - returns specific issue from 1 to 30 
+
+```
 
 
 | sort_by, column_name      | value              | 
