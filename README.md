@@ -7,11 +7,13 @@ For access use Bearer token - **hrLkzj4yaezrWTisIwoKnfI1kmXp28DDKsv3EKn3BHDfOyUK
 
 - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15` Possible options for all issues
 
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=test) 
+
 | **GET parameter**  | **Description**                                    
 | ------------------ | ---------------------------------------------| 
-| sort_by            | set column of sorting (look the table below) | 
+| sort_by            | set column of sorting (see the table below) | 
 | order_by           | set order of sorting, only asc|desc          |   
-| filter[column_name]| set filter (look the table below)            |
+| filter[column_name]| set filter (see the table below)            |
 | tags[]             | tag name                                     |
 
 ```diff
