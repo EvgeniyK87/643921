@@ -13,7 +13,7 @@ For access use `Bearer token`
 **hrLkzj4yaezrWTisIwoKnfI1kmXp28DDKsv3EKn3BHDfOyUKHnwPvp5Y6BwJ**
 ```
 
-Possible options for all issues
+Possible options for `all issues`
 | **GET parameter**  | **Description**                                    
 | ------------------ | ---------------------------------------------| 
 | sort_by            | set column of sorting (see the table below) | 
@@ -22,7 +22,7 @@ Possible options for all issues
 | tags[]             | tag name                                     |
 
 
-Possible sort_by and column_name:
+Possible `sort_by` and `column_name`:
 | **sort_by**, **column_name** | **values type**        | 
 | -----------------------------|:----------------------:| 
 | id                           | integer                | 
