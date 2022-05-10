@@ -5,8 +5,6 @@
 
 `http://localhost/api/issues/3` - returns specific issue 
 
-- ![test](https://via.placeholder.com/15/f03c15/000000?text=+)
-
 Possible options for all issues
 | **GET parameter**  | **Description**                                    
 | ------------------ | ---------------------------------------------| 
