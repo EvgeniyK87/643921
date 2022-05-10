@@ -21,7 +21,7 @@ class IssueCollection extends ResourceCollection
             'data' => $this->collection,
             'version' => '0.1.1',
             'autor' => 'Evgeniy',
-            'documentation' => 'link',
+            'documentation' => 'https://github.com/EvgeniyK87/example-support/blob/main/README.md',
         ];
     }
 }
