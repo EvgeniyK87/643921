@@ -1,9 +1,24 @@
-Example Support API
+## Example Support API
 
 For access use Bearer token - hrLkzj4yaezrWTisIwoKnfI1kmXp28DDKsv3EKn3BHDfOyUKHnwPvp5Y6BwJ 
 
 http://localhost/api/issues - returns all issues
 http://localhost/api/issues/3 - returns specific issue from 1 to 30 
+
+
+| sort_by, column_name      | value              | 
+| ------------------------- |:------------------:| 
+| id                        | integer            | 
+| title                     | string (255)       |   
+| category                  | string (255)       | 
+| description               | text (65KB)        |
+| user_id                   | integer            | 
+| created_at                | date               |
+| updated_at                | date               |
+
+
+
+
 
 Possible opnions for all issues:
 sort_by - set column of sorting [id,title,category,description,user_id,created_at,updated_at]
