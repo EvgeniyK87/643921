@@ -10,7 +10,7 @@
 
 For access use `Bearer token`
 ```
-**hrLkzj4yaezrWTisIwoKnfI1kmXp28DDKsv3EKn3BHDfOyUKHnwPvp5Y6BwJ**
+hrLkzj4yaezrWTisIwoKnfI1kmXp28DDKsv3EKn3BHDfOyUKHnwPvp5Y6BwJ
 ```
 
 Possible options for `all issues`
