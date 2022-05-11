@@ -13,19 +13,19 @@ Build app:
 ```
 docker-compose up
 ```
-In case appear errors set rights on the folders `storage` and `bootstrap/cache`. Afterthat restart container
+In case appear errors set rights on the folders `storage`, `bootstrap/cache` and restart container
 ```
 chmod 777 -R storage
 chmod 777 -R bootstrap/cache
 ```
 Create database tables:
 ```
-docker exec -d example-support-laravel.test-1  php artisan migrate
+docker exec -d example-support-laravel.test-1 php artisan migrate
 ```
 Import data:
 ```
 docker cp dump.sql example-support-mysql-1:/dump.sql
-docker exec example-support-mysql-1 /bin/bash -c 'mysql -usail -ppassword < dump.sql'
+docker exec example-support-mysql-1 /bin/bash -c 'mysql -usail -ppassword example_support < dump.sql'
 ```
 
 ## Example Support API
