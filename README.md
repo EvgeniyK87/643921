@@ -13,7 +13,7 @@ Build app:
 ```
 docker-compose up
 ```
-In case appear errors set rights on the folders `storage` and `bootstrap/cache`
+In case appear errors set rights on the folders `storage` and `bootstrap/cache`. Afterthat restart container
 ```
 chmod 777 -R storage
 chmod 777 -R bootstrap/cache
