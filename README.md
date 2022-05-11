@@ -11,7 +11,7 @@ cd example-support
 ```
 Build app:
 ```
-docker-compose up / ./vendor/bin/sail up
+docker-compose up
 ```
 Create database tables:
 ```
