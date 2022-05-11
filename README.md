@@ -15,11 +15,12 @@ docker-compose up
 ```
 Create database tables:
 ```
-./vendor/bin/sail php artisan migrate
+docker exec -d example-support-laravel.test-1  php artisan migrate
 ```
 Import data:
 ```
-./vendor/bin/sail mysql -u sail -p example_support2 < dump.sql
+docker cp dump.sql example-support-mysql-1:/dump.sql
+docker exec example-support-mysql-1 /bin/bash -c 'mysql -usail -ppassword < dump.sql'
 ```
 
 ## Example Support API
