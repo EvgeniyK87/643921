@@ -1,3 +1,27 @@
+## Deployment
+For deployment use `git` and `docker`.
+
+In your directory projects:
+```
+git clone https://github.com/EvgeniyK87/643921 example-support
+```
+Go there:
+```
+cd example-support
+```
+Build app:
+```
+docker-compose up / ./vendor/bin/sail up
+```
+Create database tables:
+```
+./vendor/bin/sail php artisan migrate
+```
+Import data:
+```
+./vendor/bin/sail mysql -u sail -p example_support2 < dump.sql
+```
+
 ## Example Support API
 
 
