@@ -13,6 +13,13 @@ Build app:
 ```
 docker-compose up
 ```
+```diff
+- Set rights folder `storage` and `bootstrap/cache`
+```
+```
+chmod 777 -R storage
+chmod 777 -R bootstrap/cache
+```
 Create database tables:
 ```
 docker exec -d example-support-laravel.test-1  php artisan migrate
